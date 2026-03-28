@@ -1,72 +1,16 @@
-# 🎯 Quiz Application :-
+# React + Vite
 
-This is a simple and interactive Quiz Application built using **HTML, CSS, and JavaScript**.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-The project focuses on basic frontend development concepts like **DOM manipulation, event handling, and clean UI design**.
+Currently, two official plugins are available:
 
-The design is simple and user-friendly, similar to real online quiz or exam portals.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
+## React Compiler
 
-## 🚀 Project Purpose
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-* JavaScript logic building
-* Handling user interaction
-* Updating content dynamically
-* Creating a clean and readable user interface
+## Expanding the ESLint configuration
 
-This project is part of my frontend learning journey.
-
----
-
-## ✨ Features
-
-* Multiple choice questions (MCQ)
-* One question displayed at a time
-* Click to select an option
-* Correct answer highlighted
-* Wrong answer highlighted
-* Next button to move forward
-* Question progress indicator (e.g., 1 of 5 questions)
-* Clean and centered UI layout
-
----
-
-## 🛠️ Technologies Used
-
-* HTML (structure)
-* CSS (styling and layout)
-* JavaScript (logic and interaction)
-
----
-
-## 📁 Project Structure
-
-```
-Quiz-App/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
-
----
-
-## ⚙️ How the Quiz Works
-
-1. Questions are stored in JavaScript as data
-2. One question is displayed at a time
-3. User selects an option
-4. App checks the answer
-5. Correct and wrong answers are highlighted
-6. "Next" button loads the next question
-7. Question counter updates automatically
-
----
-
-## 👨‍💻 Author
-
-**Sandip Kumar Jha**
-GitHub: https://github.com/sandip-kumar-jha/Quiz--App
-
----
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
